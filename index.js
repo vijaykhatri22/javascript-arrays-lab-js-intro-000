@@ -18,3 +18,7 @@ function appendKitten(newKitten){
   var temp = [...kittens, newKitten ];
   return temp;
 }
+function prependKitten(newKitten){
+  var temp = [newKitten,...kittens];
+  return temp;
+}
